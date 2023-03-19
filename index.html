@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Условия договора</legend>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, deleniti?</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="send" id="send"></td>
+                    <td><label for="send">Согласен с условиями</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="allRead" id="all"></td>
+                    <td><label for="all">Все прочитал</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="subscribe" checked></td>
+                    <td><label for="subscribe">ПОдписка на рассылку</label></td>
+                </tr>
+            </table>
+            <h4>Статус</h4>
+            <input checked type="radio" name="status" id="smz"> <label for="smz">СМЗ</label>
+            <input name="status" id="ip" type="radio"> <label for="ip">ИП</label>
+            <h4>Данные о вас</h4>
+            <label for="year">Год получения диплома</label>
+            <select name="year" id="year">
+                <option value="2020">2020 год</option>
+                <option value="2021">2021 год</option>
+                <option value="2022">2022 год</option>
+                <option value="2023">2023 год</option>
+            </select>
+            <p>Все права защищены</p>
+        </fieldset>
+    </form>
+    <!-- 
+        label ярлык id должен быть равен for
+        checkbox 
+        radio одно или другое name совпадают
+        checked выбран
+        fieldset+legend рамка и название
+     -->
+</body>
+
+</html>
